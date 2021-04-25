@@ -15,3 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Xcode Version
       run: /usr/bin/xcodebuild -version
+    - name: View All Xcode versions
+      run: ls /Applications | grep Xcode
