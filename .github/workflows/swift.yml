@@ -17,3 +17,7 @@ jobs:
       run: /usr/bin/xcodebuild -version
     - name: View All Xcode versions
       run: ls /Applications | grep Xcode
+    - name: Dump file list
+      run: ls -R
+    - name: Dump Applications list
+      run: ls /Applications
