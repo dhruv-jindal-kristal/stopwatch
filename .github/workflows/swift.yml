@@ -22,4 +22,4 @@ jobs:
     - name: Dump Applications list
       run: ls /Applications
     - name: Build
-      run: /usr/bin/xcodebuild -project Stop Watch.xcodeproj -scheme Stop Watch
+      run: /usr/bin/xcodebuild -project Stop\ Watch.xcodeproj -scheme Stop\ Watch
